@@ -1,0 +1,31 @@
+/*
+    Gilroy FontFamily
+*/
+@font-face {
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/Gilroy-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+}
