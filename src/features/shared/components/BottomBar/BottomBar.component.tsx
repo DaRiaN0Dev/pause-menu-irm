@@ -22,9 +22,8 @@ export const BottomBar: React.FC<BottomBarProps> = ({
   return (
     <footer className="w-full px-6 pb-5">
       <div className="mb-4 h-px w-full" />
-
-      <div className="flex items-center gap-0">
-        <div className="h-14.5 w-52.5 flex items-center px-4 gap-3">
+      <div className="mx-14 flex items-center gap-0">
+        <div className="h-10 w-auto flex items-center px-4 gap-3">
           <div className="h-15.5 w-11.25 rounded-lg flex items-center justify-center text-white/85 border border-white/12">
             <span className="rounded-[10px] text-center text-[18px] leading-none font-bold">
               +
@@ -32,10 +31,12 @@ export const BottomBar: React.FC<BottomBarProps> = ({
           </div>
 
           <div className="flex flex-col font-bold leading-tight">
-            <span className="text-[13px] tracking-[0.22em] text-white/55 uppercase">
+            <span className="text-[13px] tracking-[0.22em] text-white/55 uppercase text-nowrap">
               {donateLabel}
             </span>
-            <span className="text-[13px] text-[#FFB800]">{donateValue}</span>
+            <span className="mt-1 text-[13px] text-[#FFB800]">
+              {donateValue}
+            </span>
           </div>
         </div>
 

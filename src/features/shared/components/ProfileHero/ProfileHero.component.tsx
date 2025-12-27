@@ -40,15 +40,13 @@ export const ProfileHero: React.FC<ProfileHeroProps> = ({
         </div>
 
         <div className="relative z-20 p-10 pt-12">
-          <div className="text-[25px] uppercase tracking-[0.26em] text-white/70">
-            HELLO
-          </div>
+          <div className="text-[25px] uppercase text-white/70">HELLO</div>
 
           <div className="mt-2 flex items-end gap-3">
             <div className="text-[40px] font-bold leading-none text-white uppercase">
               {name}
             </div>
-            <div className="pb-1 text-[12px] tracking-wide text-white/55">
+            <div className="pb-1 text-[15px] tracking-wide text-white/70">
               ID&nbsp;{id}
             </div>
           </div>
@@ -57,9 +55,9 @@ export const ProfileHero: React.FC<ProfileHeroProps> = ({
         <img
           src={imageUrl}
           alt=""
-          className="absolute -left-20 -bottom-0.5 z-30 pointer-events-none select-none"
+          className="absolute -left-23 -bottom-0.5 z-30 pointer-events-none select-none"
           style={{
-            height: "85%",
+            height: "90%",
             width: "auto",
             maxWidth: "none",
           }}

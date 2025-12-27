@@ -30,10 +30,10 @@ export const BattlePassPanel: React.FC<BattlePassPanelProps> = ({
         </div>
 
         <div className="relative z-10 p-6">
-          <div className="text-[14px] tracking-[0.22em] text-white/60 uppercase">
+          <div className="text-[25px] tracking-[0.22em] font-bold text-[#AAAAAA] uppercase">
             Battle Pass
           </div>
-          <div className="mt-1 text-[36px] font-bold tracking-wide text-cyan-300 uppercase">
+          <div className="mt-1 text-[42px] font-bold tracking-wide text-[#5ECAF0] uppercase">
             Winter
           </div>
         </div>
@@ -49,10 +49,10 @@ export const BattlePassPanel: React.FC<BattlePassPanelProps> = ({
               key={item.label}
               className="w-14 h-14 rounded-lg bg-white flex flex-col items-center justify-center shadow-md"
             >
-              <div className="text-[16px] font-bold text-black">
+              <div className="text-[25px] font-bold text-black">
                 {item.value}
               </div>
-              <div className="text-[10px] tracking-wide text-black/60 uppercase">
+              <div className="text-[10px] tracking-wide text-[#737373] font-bold uppercase">
                 {item.label}
               </div>
             </div>
